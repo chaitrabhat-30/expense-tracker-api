@@ -3,12 +3,11 @@
 ## Tool used
 Claude
 
-## Which part AI-generated and which written by me
+## ## Which Part Was AI-Generated and Which Was Written by Me
 - **AI-generated**: The initial structure of `src/main.py` (FastAPI app, the 5 endpoints,
   Pydantic models for `ExpenseCreate` and `Expense`) and `tests/test_main.py`, based on
   the requirements I described.
-- **Written/done by me**: I created the project directory and folder structure myself
-  before asking Claude for an approach — Claude only gave me the plan for how to structure
+- **Written/done by me**: I created the project directory and folder structure myself before asking Claude for an approach — Claude only gave me the plan for how to structure
   it, I set it up on my own. I made small code changes on top of the generated code
   (not a full rewrite, but I didn't take the AI output blindly either). I entered all the
   test data (expenses, categories, amounts) myself when testing the API — I didn't use
@@ -30,5 +29,5 @@ expected behavior, not something to fix.
 - Didn't use any of the AI's suggested test/sample data when actually testing — I entered my own expense entries so the testing reflected real understanding, not just re-running what was already given.
 
 ## Anything else worth noting
-- I set up the project folder and initial structure on my own before getting any AI input on approach.
+- I set up the project folder and initial file structure myself, using the plan Claude suggested as a guide.
 - I pushed everything to GitHub (init → add → commit → branch → push) myself without asking Claude to guide me through those steps, since I was already comfortable with Git.
