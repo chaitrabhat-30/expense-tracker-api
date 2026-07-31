@@ -45,7 +45,7 @@ pytest
 # Add an expense
 curl -X POST http://127.0.0.1:8000/expenses \
   -H "Content-Type: application/json" \
-  -d '{"title": "Coffee", "amount": 4.5, "category": "Food", "date": "2026-07-31"}'
+  -d '{"title": "Coffee", "amount": 4.5, "category": "beverage", "date": "2026-07-31"}'
 
 # View all expenses
 curl http://127.0.0.1:8000/expenses
